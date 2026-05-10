@@ -177,7 +177,7 @@ def plot_noise_sweep():
 
 def plot_summary_dashboard():
     fig = plt.figure(figsize=(12, 8))
-    fig.suptitle("Bell-State Entanglement Research — Summary Dashboard\nGeorge Amoah, KNUST EEE | Quantum Computing Research",
+    fig.suptitle("Bell-State Entanglement Research — Summary Dashboard\nGeorge Oppong Boateng, KNUST EEE | Quantum Computing Research",
                  fontsize=13, fontweight="bold")
     gs = GridSpec(2, 3, figure=fig, hspace=0.45, wspace=0.4)
 
