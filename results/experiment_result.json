@@ -1,0 +1,72 @@
+
+{
+  "ideal_counts": {
+    "00": 1999,
+    "11": 2097
+  },
+  "noisy_counts": {
+    "11": 1919,
+    "00": 1960,
+    "01": 105,
+    "10": 112
+  },
+  "chsh_ideal": {
+    "S": 2.8388671875,
+    "correlations": [
+      0.712646484375,
+      -0.705078125,
+      0.710205078125,
+      0.7109375
+    ]
+  },
+  "chsh_noisy": {
+    "S": 2.48291015625,
+    "correlations": [
+      0.639404296875,
+      -0.61865234375,
+      0.6103515625,
+      0.614501953125
+    ]
+  },
+  "fidelity_at_p001": 0.9205000000000001,
+  "noise_sweep": [
+    {
+      "p_depol": 0.001,
+      "fidelity": 0.992,
+      "chsh_S": 2.7461,
+      "entangled": true
+    },
+    {
+      "p_depol": 0.005,
+      "fidelity": 0.9601,
+      "chsh_S": 2.6387,
+      "entangled": true
+    },
+    {
+      "p_depol": 0.01,
+      "fidelity": 0.9205,
+      "chsh_S": 2.4731,
+      "entangled": true
+    },
+    {
+      "p_depol": 0.02,
+      "fidelity": 0.842,
+      "chsh_S": 2.1997,
+      "entangled": true
+    },
+    {
+      "p_depol": 0.05,
+      "fidelity": 0.6125,
+      "chsh_S": 1.2354,
+      "entangled": false
+    },
+    {
+      "p_depol": 0.1,
+      "fidelity": 0.25,
+      "chsh_S": 0.0288,
+      "entangled": false
+    }
+  ],
+  "quantum_chsh_bound": 2.8284271247461903,
+  "classical_chsh_bound": 2.0
+}
